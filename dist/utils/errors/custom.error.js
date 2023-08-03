@@ -8,3 +8,4 @@ class CustomError extends Error {
     }
 }
 exports.default = CustomError;
+//# sourceMappingURL=custom.error.js.map

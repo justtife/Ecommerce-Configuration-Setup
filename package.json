@@ -1,6 +1,6 @@
 {
-  "name": "@tff/common",
-  "version": "1.0.0",
+  "name": "tffconfig",
+  "version": "0.0.3",
   "description": "Teepha Flowers and Fabrics Common package configurations and functions",
   "author": "justtife <farinubolu@gmail.com>",
   "homepage": "https://github.com/justtife/Ecommerce-Configuration-Setup#readme",
@@ -10,7 +10,7 @@
     "test": "test"
   },
   "files": [
-    "src"
+    "/dist"
   ],
   "scripts": {
     "test": "node ./__tests__/common.test.js"
@@ -19,6 +19,7 @@
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express-async-errors": "^3.1.1",
     "express-rate-limit": "^6.8.1",
     "express-session": "^1.17.3",
@@ -36,7 +37,7 @@
     "@types/express-session": "^1.17.7",
     "@types/winston": "^2.4.4"
   },
-  "types": "./dist/common.d.ts",
+  "types": "dist/common.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justtife/Ecommerce-Configuration-Setup.git"
@@ -47,5 +48,8 @@
   ],
   "bugs": {
     "url": "https://github.com/justtife/Ecommerce-Configuration-Setup/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

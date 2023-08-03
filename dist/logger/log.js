@@ -46,3 +46,4 @@ class LoggerMiddleware {
     }
 }
 exports.default = LoggerMiddleware;
+//# sourceMappingURL=log.js.map

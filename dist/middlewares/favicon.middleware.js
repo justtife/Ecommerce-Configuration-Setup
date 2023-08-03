@@ -9,3 +9,4 @@ const faviconmiddleware = (req, res, next) => {
     }
 };
 exports.default = faviconmiddleware;
+//# sourceMappingURL=favicon.middleware.js.map

@@ -15,3 +15,4 @@ class ServerError extends custom_error_1.default {
     }
 }
 exports.default = ServerError;
+//# sourceMappingURL=server.error.js.map

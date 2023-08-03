@@ -12,3 +12,4 @@ var custom_error_1 = require("./custom.error");
 Object.defineProperty(exports, "Custom", { enumerable: true, get: function () { return __importDefault(custom_error_1).default; } });
 var server_error_1 = require("./server.error");
 Object.defineProperty(exports, "Server", { enumerable: true, get: function () { return __importDefault(server_error_1).default; } });
+//# sourceMappingURL=index.js.map

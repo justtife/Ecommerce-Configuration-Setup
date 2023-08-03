@@ -15,3 +15,4 @@ class BadRequestError extends custom_error_1.default {
     }
 }
 exports.default = BadRequestError;
+//# sourceMappingURL=bad-request.error.js.map

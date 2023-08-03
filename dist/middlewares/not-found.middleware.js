@@ -5,3 +5,4 @@ const notFound = (req) => {
     throw new utils_1.Error.NotFound(`Route ${req.originalUrl} does not exist`);
 };
 exports.default = notFound;
+//# sourceMappingURL=not-found.middleware.js.map

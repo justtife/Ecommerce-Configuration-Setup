@@ -147,3 +147,4 @@ exports.default = App;
 // import doc from "./docs";
 // import swaggerUI from "swagger-ui-express";
 // app.use("/docs", swaggerUI.serve, swaggerUI.setup(doc));
+//# sourceMappingURL=app.config.js.map

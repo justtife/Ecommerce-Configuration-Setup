@@ -8,3 +8,4 @@ var app_config_1 = require("./app.config");
 Object.defineProperty(exports, "AppConfig", { enumerable: true, get: function () { return __importDefault(app_config_1).default; } });
 var db_config_1 = require("./db.config");
 Object.defineProperty(exports, "DB", { enumerable: true, get: function () { return __importDefault(db_config_1).default; } });
+//# sourceMappingURL=index.js.map

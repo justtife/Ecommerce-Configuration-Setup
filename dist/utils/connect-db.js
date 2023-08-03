@@ -53,3 +53,4 @@ class DatabaseManager {
     }
 }
 exports.default = DatabaseManager;
+//# sourceMappingURL=connect-db.js.map

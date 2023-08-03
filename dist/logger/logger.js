@@ -44,3 +44,4 @@ const logger = (serviceName) => {
     });
 };
 exports.default = logger;
+//# sourceMappingURL=logger.js.map

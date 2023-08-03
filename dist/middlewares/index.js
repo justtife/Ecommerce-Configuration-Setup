@@ -10,3 +10,4 @@ var not_found_middleware_1 = require("./not-found.middleware");
 Object.defineProperty(exports, "NotFoundMiddleware", { enumerable: true, get: function () { return __importDefault(not_found_middleware_1).default; } });
 var favicon_middleware_1 = require("./favicon.middleware");
 Object.defineProperty(exports, "FaviconMiddleware", { enumerable: true, get: function () { return __importDefault(favicon_middleware_1).default; } });
+//# sourceMappingURL=index.js.map

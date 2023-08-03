@@ -23,3 +23,4 @@ function getConfig(env) {
     return mainConfig[env] || mainConfig["development"];
 }
 exports.default = getConfig;
+//# sourceMappingURL=config.js.map

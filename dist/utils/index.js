@@ -32,3 +32,4 @@ Object.defineProperty(exports, "ResponseHandler", { enumerable: true, get: funct
 exports.Error = __importStar(require("./errors"));
 var connect_db_1 = require("./connect-db");
 Object.defineProperty(exports, "DBConnection", { enumerable: true, get: function () { return __importDefault(connect_db_1).default; } });
+//# sourceMappingURL=index.js.map

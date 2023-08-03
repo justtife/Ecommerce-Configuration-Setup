@@ -28,3 +28,4 @@ exports.default = sequelize;
 //     .catch((err) => {
 //         logger.error(`Unable to connect to database \n Error: ${err}`);
 //     });
+//# sourceMappingURL=db.config.js.map
