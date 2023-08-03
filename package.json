@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "Teepha Flowers and Fabrics Common package configurations and functions",
   "author": "justtife <farinubolu@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/justtife/Ecommerce-Configuration-Setup#readme",
   "license": "MIT",
   "main": "dist/common.js",
   "directories": {
-    "src": "src",
-    "config": "src/config",
-    "test": "__tests__"
+    "test": "test"
   },
   "files": [
     "src"
@@ -37,5 +35,17 @@
     "@types/express": "^4.17.17",
     "@types/express-session": "^1.17.7",
     "@types/winston": "^2.4.4"
+  },
+  "types": "./dist/common.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justtife/Ecommerce-Configuration-Setup.git"
+  },
+  "keywords": [
+    "Ecommerce",
+    "Config"
+  ],
+  "bugs": {
+    "url": "https://github.com/justtife/Ecommerce-Configuration-Setup/issues"
   }
 }
