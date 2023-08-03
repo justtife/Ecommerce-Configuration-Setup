@@ -1,0 +1,40 @@
+[error] 23-08-02 14:50:27 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string {"metadata":{}}
+[error] 23-08-02 14:52:23 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string {"metadata":{}}
+[error] 23-08-02 15:01:41 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string {"metadata":{}}
+[error] 23-08-02 15:03:32 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string {"metadata":{}}
+[error] 23-08-02 15:07:04 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "Justtife" {"metadata":{}}
+[error] 23-08-02 15:07:42 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "Justtife" {"metadata":{}}
+[error] 23-08-02 15:08:01 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "postgres" {"metadata":{}}
+[error] 23-08-02 15:08:34 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "Justtife" {"metadata":{}}
+[error] 23-08-02 15:29:48 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "admin" {"metadata":{}}
+[error] 23-08-02 16:17:11 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "justtife" {"metadata":{}}
+[error] 23-08-02 16:17:50 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "justtife" {"metadata":{}}
+[error] 23-08-02 16:28:43 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: database "test" does not exist {"metadata":{}}
+[error] 23-08-02 16:29:20 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: database "test" does not exist {"metadata":{}}
+[error] 23-08-02 16:30:18 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "justtifea" {"metadata":{}}
+[error] 23-08-02 16:30:43 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "justtife" {"metadata":{}}
+[error] 23-08-02 16:31:07 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "justtife" {"metadata":{}}
+[error] 23-08-02 16:33:04 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "Justtife" {"metadata":{}}
+[error] 23-08-02 16:38:03 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "Justtife" {"metadata":{}}
+[error] 23-08-02 16:39:04 Scissors-Logger [User]: Unable to connect to database 
+ Error: SequelizeConnectionError: password authentication failed for user "justtife" {"metadata":{}}
+[error] 23-08-02 16:42:04 Scissors-Logger [User]: Unable to connect to database 
+ SequelizeConnectionError: password authentication failed for user "justtife" {"metadata":{}}

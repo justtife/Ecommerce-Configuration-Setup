@@ -1,0 +1,2 @@
+[error] 23-08-02 18:27:29 Scissors-Logger [Product-Service]: Unable to connect to the database 
+ SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string {"metadata":{}}
