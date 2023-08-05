@@ -9,13 +9,13 @@ export default class DatabaseManager {
         this.logger = Logger(service);
     }
 
-    private async createDatabaseConnection() {
-        await DB(this.env).authenticate()
+    private createDatabaseConnection() {
+        DB(this.env).authenticate()
             .then(() => {
                 this.logger.info("Connection to database has been established successfully");
             })
             .catch((error: any) => {
-                this.logger.error(`Unable to connect to the database \n ${error}`);
+                this.logger.error(`Unable to connect to database \n ${error}`);
                 process.exit(1);
             })
     }

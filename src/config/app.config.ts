@@ -107,13 +107,13 @@ class App {
 
     }
 
-    public startServer(port: number): void {
+    public async startServer(port: number): Promise<void> {
         this.appMiddlewares();
         let connectDB = new DBConnection(this.environment, this.service)
-        connectDB.startServer();
+        await connectDB.startServer();
         this.app.listen(port, () => {
             this.logger.info(
-                `Server is listening on port ${port} and running in ${process.env.APP_ENV} mode...`
+                `Server listening on port ${port} and running in ${process.env.APP_ENV} mode...`
             );
         }).on("error", (error: Error) => {
             this.logger.error(`Error starting server: ${error.message}`);

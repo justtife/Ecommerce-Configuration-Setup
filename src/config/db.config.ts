@@ -15,7 +15,8 @@ const sequelize = (env: string): Sequelize => {
                 min: config.POOL.MIN,
                 acquire: config.POOL.ACQUIRE,
                 idle: config.POOL.IDLE
-            }
+            },
+            retry: { max: 5, timeout: 5000 }
         }
     );
 }
